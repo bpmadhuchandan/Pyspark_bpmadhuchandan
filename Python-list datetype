@@ -1,0 +1,6 @@
+listt = [35,68.00,'madhu']
+print(listt)
+listt.append(2023)
+listt[len(listt):]= [76]
+print(len(listt))
+print(listt)
