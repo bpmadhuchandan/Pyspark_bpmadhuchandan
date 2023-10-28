@@ -3,4 +3,13 @@ print(listt)
 listt.append(2023)
 listt[len(listt):]= [76]
 print(len(listt))
+listt.extend([3,54,77])
+listt.insert(3,0)
+print(listt)
+listt.pop(4)
+listt=listt[:]
+print(listt)
+listt.extend([1,2,3,4,5])
+print(listt)
+listt=listt.index(3,7,19)
 print(listt)
